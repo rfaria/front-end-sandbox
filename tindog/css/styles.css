@@ -1,0 +1,175 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* .title-container {
+  max-height: 600px;
+  overflow: hidden;
+} */
+
+#title {
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+#features {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 7% 15%;
+  position: relative;
+}
+
+h3 {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-box {
+  color: #8f8f8f;
+  padding: 3%;
+  text-align: center;
+}
+
+.feat-icon {
+  color: #ef8172;
+  /*font-size: 4rem;*/
+  margin: 1rem 0;
+}
+
+.feat-icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  margin: 20px 20px 50px; /*3d-Shorthand property: Top left&Right Bottom*/
+  width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    right: 30%;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+#footer {
+  text-align: center;
+}
+
+
+a.social-media:active, a.social-media:hover, a.social-media:link, a.social-media:visited {
+  color: #000;
+}
+
+.social-media {
+  margin: auto 10px;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
