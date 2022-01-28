@@ -1,17 +1,35 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+/* Headings */
+
+.big-heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
+
+
+
+
 
 /* Navigation Bar */
 
@@ -42,7 +60,13 @@ h1 {
   margin: 5% 3% 5% 0;
 }
 
-/* Title Image */
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title Section */
 
 .title-image {
   position: absolute;
@@ -59,26 +83,26 @@ h1 {
 #title {
   background-color: #ff4c68;
   color: #ffffff;
+  text-align: left;
 }
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Features */
 
 #features {
   background-color: #fff;
   margin: 0 auto;
-  padding: 7% 15%;
   position: relative;
 }
 
-h3 {
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
 
 .feature-box {
   color: #8f8f8f;
   padding: 3%;
-  text-align: center;
 }
 
 .feat-icon {
@@ -91,16 +115,20 @@ h3 {
   color: #ff4c68;
 }
 
+.feature-title {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
+.testimonial-text {
   font-size: 3rem;
-  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -110,14 +138,10 @@ h2 {
   width: 10%;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press-logo {
@@ -129,7 +153,11 @@ h2 {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -152,14 +180,13 @@ h2 {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  text-align: center;
   margin: 0 auto;
   padding: 0 0;
 }
 
-#footer {
-  text-align: center;
-}
+/* #footer {
+
+} */
 
 
 a.social-media:active, a.social-media:hover, a.social-media:link, a.social-media:visited {
@@ -170,6 +197,3 @@ a.social-media:active, a.social-media:hover, a.social-media:link, a.social-media
   margin: auto 10px;
 }
 
-html {
-  scroll-behavior: smooth !important;
-}
