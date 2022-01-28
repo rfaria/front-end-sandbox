@@ -27,10 +27,6 @@ html {
   line-height: 1.5;
 }
 
-
-
-
-
 /* Navigation Bar */
 
 .navbar {
@@ -66,6 +62,17 @@ html {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* Title Section */
 
 .title-image {
@@ -80,25 +87,17 @@ html {
   overflow: hidden;
 } */
 
-#title {
-  background-color: #ff4c68;
-  color: #ffffff;
-  text-align: left;
-}
-
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
-
 
 /* Features */
 
 #features {
-  background-color: #fff;
   margin: 0 auto;
   position: relative;
 }
-
 
 .feature-box {
   color: #8f8f8f;
@@ -178,16 +177,9 @@ html {
 }
 
 #cta {
-  background-color: #ff4c68;
-  color: #fff;
   margin: 0 auto;
   padding: 0 0;
 }
-
-/* #footer {
-
-} */
-
 
 a.social-media:active, a.social-media:hover, a.social-media:link, a.social-media:visited {
   color: #000;
@@ -196,4 +188,3 @@ a.social-media:active, a.social-media:hover, a.social-media:link, a.social-media
 .social-media {
   margin: auto 10px;
 }
-
