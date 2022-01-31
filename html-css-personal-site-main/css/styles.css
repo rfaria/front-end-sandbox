@@ -1,0 +1,170 @@
+/*https://colorhunt.co/palette/05374239a2dba2dbfae8f0f2*/
+a {
+  color: #11999E;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /*default 100% is 16px -> we want 90px, so we can make 90/16 wich gives us 562.5%*/
+  /*16px = 100% = 1em -> rem reffers to the root (it doesn't inherit)*/
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  /*16px/40px = 1rem/xrem => 2.5rem*/
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 0;
+  width: 4%;
+  margin: auto;
+}
+
+.intro-text {
+  width: 30%;
+  margin: 20px auto 50px auto;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  /* background-color: red;
+  height: 200px;
+  width: 200px; */
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 30px 30px 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.mountain {
+  margin: auto;
+}
+
+.profile-picture {
+  width: 150px;
+  margin: 50px auto auto auto;
+}
+
+.skill-image-left {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-right {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.get-in-touch-text {
+  width: 50%;
+  margin: 30px auto 30px auto;
+}
+
+.btn {
+  background: #69C7C7;
+  background-image: -webkit-linear-gradient(top, #69C7C7, #498181);
+  background-image: -moz-linear-gradient(top, #69C7C7, #498181);
+  background-image: -ms-linear-gradient(top, #69C7C7, #498181);
+  background-image: -o-linear-gradient(top, #69C7C7, #498181);
+  background-image: -webkit-gradient(to bottom, #69C7C7, #498181);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.btn:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #428989);
+  background-image: -moz-linear-gradient(top, #66BFBF, #428989);
+  background-image: -ms-linear-gradient(top, #66BFBF, #428989);
+  background-image: -o-linear-gradient(top, #66BFBF, #428989);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #428989);
+  border-radius: 5px;
+  border: solid #FFFFFF 0;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: bold;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 12px;
+  margin-top: 40px;
+}
