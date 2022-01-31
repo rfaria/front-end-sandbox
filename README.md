@@ -4,4 +4,4 @@ This is where I place all my mini-projects and exercises that only require a fro
 
 - [TinDog](https://rfaria.github.io/front-end-sandbox/tindog) - Startup landing page example.
 - [Input/Output](https://rfaria.github.io/front-end-sandbox/input-output) - Performing some IO with JavaScript.
-- [Pure HTML CV](https://rfaria.github.io/front-end-sandbox/pure-html-cv) - Resume in pure HTML.
+- [Pure HTML CV](https://rfaria.github.io/front-end-sandbox/pure-html-cv-main) - Resume in pure HTML.
