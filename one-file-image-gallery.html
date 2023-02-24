@@ -1,0 +1,74 @@
+<!-- In this example, all the HTML, CSS, and JavaScript code is contained in a single file. 
+The code defines an image gallery with six images, each with its own clickable img element 
+that expands into a larger view in a modal window when clicked -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Gallery</title>
+    <style>
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .gallery img {
+        margin: 10px;
+        max-width: 200px;
+        max-height: 200px;
+        cursor: pointer;
+      }
+
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #modal-image {
+        max-width: 90%;
+        max-height: 90%;
+      }
+
+      .modal.active {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1608396094637-903a45a1dd8d" alt="Image" onclick="showImage('https://images.unsplash.com/photo-1608396094637-903a45a1dd8d')">
+      <img src="https://images.unsplash.com/photo-1505678261049-9f44f34e416d" alt="Image" onclick="showImage('https://images.unsplash.com/photo-1505678261049-9f44f34e416d')">
+      <img src="https://images.unsplash.com/photo-1554144601-29a96dca5b5f" alt="Image" onclick="showImage('https://images.unsplash.com/photo-1554144601-29a96dca5b5f')">
+      <img src="https://images.unsplash.com/photo-1494338000025-c8921fd2a73e" alt="Image" onclick="showImage('https://images.unsplash.com/photo-1494338000025-c8921fd2a73e')">
+      <img src="https://images.unsplash.com/photo-1528464343399-aeb165c47b7c" alt="Image" onclick="showImage('https://images.unsplash.com/photo-1528464343399-aeb165c47b7c')">
+      <img src="https://images.unsplash.com/photo-1559069367-cb6a97bb6a62" alt="Image" onclick="showImage('https://images.unsplash.com/photo-1559069367-cb6a97bb6a62')">
+    </div>
+
+    <div class="modal" onclick="hideImage()">
+      <img src="" alt="Image Modal" id="modal-image">
+    </div>
+
+    <script>
+      function showImage(src) {
+        var modal = document.querySelector('.modal');
+        var modalImage = document.querySelector('#modal-image');
+        modalImage.src = src;
+        modal.classList.add('active');
+      }
+
+      function hideImage() {
+        var modal = document.querySelector('.modal');
+        modal.classList.remove('active');
+      }
+    </script>
+  </body>
+</html>
